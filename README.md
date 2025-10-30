@@ -5,7 +5,7 @@ This repository provides the **instruction-tuning dataset** and **LoRA adapter**
 domain-specific fine-tuning of large language models (LLMs) in the field of **climate change research**.
 -->
 This repository provides the **instruction-tuning dataset** and **LoRA adapter** used in our study, 
-aiming to ensure transparency and reproducibility in fine-tuning large language models (LLMs) on **recent scientific studies and reports concerning climate change**.
+aiming to ensure transparency and reproducibility in fine-tuning large language models (LLMs) on **recent scientific studies and assessment reports concerning climate change**.
 
 ---
 
@@ -78,6 +78,7 @@ The dataset was constructed from research papers and assessment reports relevant
 | PDF text extraction | [Docling](https://github.com/docling-project/docling) | 2.26.0 |
 | Instruction generation model | [OpenGVLab/InternVL2_5-78B-MPO](https://huggingface.co/OpenGVLab/InternVL2_5-78B-MPO) | 78B MPO model |
 | Fine-tuning framework | [ms-swift](https://github.com/modelscope/ms-swift) | 3.3.0 |
+| Base model for fine-tuning |[tokyotech-llm/Llama-3.3-Swallow-70B-Instruct-v0.4](https://huggingface.co/tokyotech-llm/Llama-3.3-Swallow-70B-Instruct-v0.4) | f99e99588303e8a52b88076d3a5f24db19f757a6 |
 | Parameter-efficient tuning | PEFT (LoRA) | — |
 
 ---
@@ -115,12 +116,20 @@ This design allows models to learn variations in linguistic structures and respo
 
 ## Contents
 
+<!--
 | Item | Description |
 |------|-------------|
 | **Dataset** | Instruction–response pairs in JSONL format (English and Japanese) |
-| **LoRA Adapter** | LoRA adapter for InternVL2_5-78B-MPO |
+| **LoRA Adapter** | LoRA adapter for Llama-3.3-Swallow-70B-Instruct-v0.4 |
 | **License** | Research use only (non-commercial) |
 | **Format** | Compatible with Hugging Face |
+-->
+| Item | Filename | Description |
+|------|----------|-------------|
+| **Dataset** | v2.zip | Instruction–response pairs in JSONL format (English and Japanese) |
+| **LoRA Adapter** | checkpoint-19000.zip | LoRA adapter for Llama-3.3-Swallow-70B-Instruct-v0.4 |
+| **License** | - | Research use only (non-commercial) |
+| **Format** | - | Compatible with Hugging Face |
 
 ---
 
@@ -148,7 +157,7 @@ Recommended use cases include:
 - This repository is provided **for transparency in academic research**; **commercial use is strictly prohibited**.  
 - Users should verify and evaluate model outputs before citing or publishing results based on them.
 -->
-- The dataset contains texts derived from research papers and reports published by the above institutions.  
+- The dataset contains texts derived from research papers and assessment reports published by the above institutions.  
   Copyright remains with the original authors and organizations.  
 - This repository is provided **to promote transparency and reproducibility in academic research**;  
   **commercial use is strictly prohibited**.  
