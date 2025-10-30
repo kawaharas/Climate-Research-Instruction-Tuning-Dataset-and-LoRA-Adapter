@@ -42,7 +42,7 @@ The dataset was constructed from research papers and assessment reports relevant
   - [Advanced Studies of Climate Change Projection](https://www.jamstec.go.jp/sentan/eng/index.html)
 
 | Year | Papers |
-|------|--------|
+|------|--------:|
 | 2022 | 30 |
 | 2023 | 28 |
 | 2024 | 19 |
@@ -57,7 +57,7 @@ The dataset was constructed from research papers and assessment reports relevant
   - [A-PLAT](https://adaptation-platform.nies.go.jp/en/)
 
 | Year | Papers |
-|------|--------|
+|------|--------:|
 | 2016–2017 | 199 |
 | 2018–2019 | 62 |
 
@@ -104,12 +104,12 @@ In total, the dataset contains approximately 190,000 samples, ensuring sufficien
 This design allows models to learn variations in linguistic structures and response formats, enabling effective cross-lingual and cross-format generalization.
 
 | Dataset | Train | Validation | Test | Total |
-|----------|-------|------------|------|--------|
+|----------|-------:|------------:|------:|--------:|
 | en_default | 38,745 | 4,843 | 4,844 | 48,432 |
 | en_multichoice | 37,903 | 4,738 | 4,738 | 47,379 |
 | jp_default | 38,336 | 4,792 | 4,792 | 47,920 |
 | jp_multichoice | 37,111 | 4,639 | 4,639 | 46,389 |
-| Total | 152,095 | 19,012 | 19,013 | 190,120 |
+| all data | 152,095 | 19,012 | 19,013 | 190,120 |
 
 ---
 
