@@ -166,7 +166,7 @@ If you use this dataset or adapter in your research, please cite as follows:
 -->
 ---
 
-## 🔗 Related Links
+## Related Links
 
 - [SENTAN Program](https://www.jamstec.go.jp/sentan/eng/)
 - [A-PLAT](https://adaptation-platform.nies.go.jp/en/)
