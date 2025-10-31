@@ -50,10 +50,10 @@ The dataset used in this study consists of question–answer pairs based on give
 Each sample requires the model to either **generate an open-ended textual answer** or **select one of four multiple-choice options**. 
 The data are organized by **language** (English or Japanese) and **answer format** (textual or multiple-choice), resulting in four subsets:
 
-- `dataset/en_default`: English, open-ended textual answers  
-- `dataset/en_multichoice`: English, multiple-choice questions  
-- `dataset/jp_default`: Japanese, open-ended textual answers  
-- `dataset/jp_multichoice`: Japanese, multiple-choice questions  
+- `en_default`: English, open-ended textual answers  
+- `en_multichoice`: English, multiple-choice questions  
+- `jp_default`: Japanese, open-ended textual answers  
+- `jp_multichoice`: Japanese, multiple-choice questions  
 
 <!--
 Each subset is split into **training**, **validation**, and **test** sets.  
