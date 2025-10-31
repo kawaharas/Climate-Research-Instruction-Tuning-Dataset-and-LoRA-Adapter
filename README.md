@@ -8,7 +8,7 @@ This repository provides the **instruction-tuning dataset** and **LoRA adapter**
 domain-specific fine-tuning of large language models (LLMs) in the field of **climate change research**.
 -->
 This repository provides the **instruction-tuning dataset** and **LoRA adapter** used in our study, 
-aiming to ensure transparency and reproducibility in fine-tuning large language models (LLMs) on **recent scientific studies and assessment reports concerning climate change**.
+aiming to ensure transparency and reproducibility in fine-tuning large language models (LLMs) on **recent academic papers and assessment reports concerning climate change**.
 
 ---
 
@@ -18,13 +18,13 @@ aiming to ensure transparency and reproducibility in fine-tuning large language 
 This project aims to improve the instruction-following ability of LLMs  
 for **climate science and climate policy** by leveraging Japanese research outputs.
 -->
-This project aims to enhance the instruction-following capabilities of LLMs for applications 
-in **climate science and climate policy**, based on contemporary scientific literature and assessment reports.
+This project aims to develop an AI-based framework that enables local governments to conduct scientifically sound climate risk assessments and design adaptation strategies, even in the absence of specialized expertise or significant resources, based on recent academic papers and assessment reports.
 
-- **Objective**: To enhance scientific reasoning and summarization capabilities in climate-related contexts  
+<!--
+- **Objective**: To develop an AI-based framework that enables local governments to conduct scientifically sound climate risk assessments and design adaptation strategies, even in the absence of specialized expertise or significant resources
 - **Method**: Knowledge extraction from academic literature → instruction data generation → LoRA-based fine-tuning  
 - **Outputs**: Instruction-tuning dataset and LoRA adapter (for PEFT)
-
+-->
 ---
 
 ## Contents
