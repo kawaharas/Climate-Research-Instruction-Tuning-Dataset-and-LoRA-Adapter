@@ -1,5 +1,6 @@
-# Instruction-Tuning Dataset for the Climatology-specific Large Language Model
+# Instruction-Tuning Dataset and LoRA Adapter for the Climatology-specific Large Language Model
 <!--
+# Instruction-Tuning Dataset for the Climatology-specific Large Language Model
 # Climate Research Instruction-Tuning Dataset and LoRA Adapter
 -->
 
