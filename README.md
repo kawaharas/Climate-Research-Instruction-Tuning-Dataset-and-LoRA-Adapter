@@ -39,7 +39,7 @@ in **climate science and climate policy**, based on contemporary scientific lite
 -->
 | Item | Filename | Description |
 |------|----------|-------------|
-| **Dataset** | v2.zip | Instruction–response pairs in JSONL format (English and Japanese) |
+| **Dataset** | v2.zip | Question-Answer pairs in JSONL format (English and Japanese) |
 | **LoRA Adapter** | checkpoint-19000.zip | LoRA adapter for Llama-3.3-Swallow-70B-Instruct-v0.4<br>(Compatible with Hugging Face) |
 
 ---
