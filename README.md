@@ -104,13 +104,13 @@ The number of samples in each split is shown below.
 In total, the dataset contains approximately 190,000 samples, ensuring sufficient coverage across both languages and answer types. 
 This design allows models to learn variations in linguistic structures and response formats, enabling effective cross-lingual and cross-format generalization.
 
-| Dataset | Train | Validation | Test | Total |
+| Dataset | Train<br>train.json | Validation<br>val.json | Test<br>test.json | Total |
 |----------|-------:|------------:|------:|--------:|
 | en_default | 38,745 | 4,843 | 4,844 | 48,432 |
 | en_multichoice | 37,903 | 4,738 | 4,738 | 47,379 |
 | jp_default | 38,336 | 4,792 | 4,792 | 47,920 |
 | jp_multichoice | 37,111 | 4,639 | 4,639 | 46,389 |
-| all data | 152,095 | 19,012 | 19,013 | 190,120 |
+| all data<br>dataset.json | 152,095 | 19,012 | 19,013 | 190,120 |
 
 ---
 
