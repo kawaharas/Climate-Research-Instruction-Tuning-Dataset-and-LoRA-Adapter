@@ -34,12 +34,10 @@ The dataset was constructed from publicly available research outputs and assessm
 -->
 The dataset was constructed from research papers and assessment reports relevant to climate change.
 
-### 1. Ministry of Education, Culture, Sports, Science and Technology (MEXT)  
-**Advanced Studies of Climate Change Projection (SENTAN Program)**
+### 1. Ministry of Education, Culture, Sports, Science and Technology (MEXT) 
+&nbsp;&nbsp;&nbsp;&nbsp;[Advanced Studies of Climate Change Projection (SENTAN Program)](https://www.jamstec.go.jp/sentan/eng/index.html)
 - Period: 2022–2024  
 - Number of papers: 78  
-- Source:  
-  - [Advanced Studies of Climate Change Projection](https://www.jamstec.go.jp/sentan/eng/index.html)
 
 | Year | Papers |
 |------|--------:|
@@ -50,11 +48,9 @@ The dataset was constructed from research papers and assessment reports relevant
 ---
 
 ### 2. National Institute for Environmental Studies (NIES)  
-**Climate Change Adaptation Information Platform (A-PLAT)**
+&nbsp;&nbsp;&nbsp;&nbsp;[Climate Change Adaptation Information Platform (A-PLAT)](https://adaptation-platform.nies.go.jp/en/)
 - Period: 2016–2019  
 - Number of papers: 261  
-- Source:  
-  - [A-PLAT](https://adaptation-platform.nies.go.jp/en/)
 
 | Year | Papers |
 |------|--------:|
@@ -64,10 +60,8 @@ The dataset was constructed from research papers and assessment reports relevant
 ---
 
 ### 3. Intergovernmental Panel on Climate Change (IPCC)  
-**Sixth Assessment Report (AR6)**
-- Target: AR6 Synthesis Report (excluding glossary and index)  
-- Source:  
-  - [IPCC AR6 Synthesis Report: Climate Change 2023](https://www.ipcc.ch/report/sixth-assessment-report-cycle/)
+&nbsp;&nbsp;&nbsp;&nbsp;[AR6 Synthesis Report: Climate Change 2023](https://www.ipcc.ch/report/sixth-assessment-report-cycle/)
+- Target: Climate Change 2023 Synthesis Report (excluding glossary and index)  
 
 ---
 
@@ -79,7 +73,6 @@ The dataset was constructed from research papers and assessment reports relevant
 | Instruction generation model | [OpenGVLab/InternVL2_5-78B-MPO](https://huggingface.co/OpenGVLab/InternVL2_5-78B-MPO) | 78B MPO model |
 | Fine-tuning framework | [ms-swift](https://github.com/modelscope/ms-swift) | 3.3.0 |
 | Base model for fine-tuning |[tokyotech-llm/Llama-3.3-Swallow-70B-Instruct-v0.4](https://huggingface.co/tokyotech-llm/Llama-3.3-Swallow-70B-Instruct-v0.4) | f99e99588303e8a52b88076d3a5f24db19f757a6 |
-| Parameter-efficient tuning | PEFT (LoRA) | — |
 
 ---
 
@@ -104,13 +97,13 @@ The number of samples in each split is shown below.
 In total, the dataset contains approximately 190,000 samples, ensuring sufficient coverage across both languages and answer types. 
 This design allows models to learn variations in linguistic structures and response formats, enabling effective cross-lingual and cross-format generalization.
 
-| Dataset | <div align="center">Train<br>(train.json)</div> | <div align="center">Validation<br>(val.json)</div> | <div align="center">Test<br>(test.json)</div> | <div align="center">Total</div> |
+| Dataset | <div align="center">Train<br>(train.json)</div> | <div align="center">Validation<br>(val.json)</div> | <div align="center">Test<br>(test.json)</div> | <div align="center">Total<br>(dataset.json)</div> |
 |----------|-------:|------------:|------:|--------:|
 | en_default | 38,745 | 4,843 | 4,844 | 48,432 |
 | en_multichoice | 37,903 | 4,738 | 4,738 | 47,379 |
 | jp_default | 38,336 | 4,792 | 4,792 | 47,920 |
 | jp_multichoice | 37,111 | 4,639 | 4,639 | 46,389 |
-| all data<br>(dataset.json) | 152,095 | 19,012 | 19,013 | 190,120 |
+| all data | 152,095 | 19,012 | 19,013 | 190,120 |
 
 ---
 
@@ -127,9 +120,7 @@ This design allows models to learn variations in linguistic structures and respo
 | Item | Filename | Description |
 |------|----------|-------------|
 | **Dataset** | v2.zip | Instruction–response pairs in JSONL format (English and Japanese) |
-| **LoRA Adapter** | checkpoint-19000.zip | LoRA adapter for Llama-3.3-Swallow-70B-Instruct-v0.4 |
-| **License** | - | Research use only (non-commercial) |
-| **Format** | - | Compatible with Hugging Face |
+| **LoRA Adapter** | checkpoint-19000.zip | LoRA adapter for Llama-3.3-Swallow-70B-Instruct-v0.4<br>(Compatible with Hugging Face) |
 
 ---
 
