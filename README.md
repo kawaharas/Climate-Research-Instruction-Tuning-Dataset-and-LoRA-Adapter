@@ -106,16 +106,6 @@ Recommended use cases include:
 
 ---
 
-## Notes
-
-- The dataset contains texts derived from research papers and assessment reports published by the above institutions.  
-  Copyright remains with the original authors and organizations.  
-- This repository is provided **to promote transparency and reproducibility in academic research**;  
-  **commercial use is strictly prohibited**.  
-- Users should verify and evaluate model outputs before citation or publication.
-
----
-
 ## License Information
 
 Please note that the dataset and the LoRA adapter provided in this repository are distributed under different licenses. By downloading or using these resources, you agree to abide by their respective terms.
@@ -131,6 +121,15 @@ The LoRA adapter was fine-tuned on the Llama 3.3 Swallow 70B Instruct base model
 [View Llama 3.3 Community License](https://www.llama.com/llama3_3/license/)
 
 [View Gemma Terms of Use](https://ai.google.dev/gemma/terms)
+
+---
+
+## Notes
+
+- The dataset contains texts derived from research papers and assessment reports published by the above institutions.  
+  Copyright remains with the original authors and organizations.  
+- Commercial use of the dataset is strictly prohibited in accordance with the CC BY-NC-SA 4.0 license. For the commercial use of the LoRA adapter, users must refer to and comply with the specific terms of the Llama 3.3 Community License and Gemma Terms of Use.
+- Users should verify and evaluate model outputs before citation or publication.
 
 <!--
 ## Citation
