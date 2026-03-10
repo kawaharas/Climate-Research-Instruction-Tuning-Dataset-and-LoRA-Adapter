@@ -1,13 +1,5 @@
 # Instruction-Tuning Dataset and LoRA Adapter for the Climatology-specific Large Language Model
-<!--
-# Instruction-Tuning Dataset for the Climatology-specific Large Language Model
-# Climate Research Instruction-Tuning Dataset and LoRA Adapter
--->
 
-<!--
-This repository provides the **instruction-tuning dataset** and **LoRA adapter** created for  
-domain-specific fine-tuning of large language models (LLMs) in the field of **climate change research**.
--->
 This repository provides the **instruction-tuning dataset** and **LoRA adapter** used in our study, 
 aiming to ensure transparency and reproducibility in fine-tuning large language models (LLMs) on **recent academic papers and assessment reports concerning climate change**.
 
@@ -15,29 +7,12 @@ aiming to ensure transparency and reproducibility in fine-tuning large language 
 
 ## Project Overview
 
-<!--
-This project aims to improve the instruction-following ability of LLMs  
-for **climate science and climate policy** by leveraging Japanese research outputs.
--->
 This project aims to develop an AI-based framework that enables local governments to conduct scientifically sound climate risk assessments and design adaptation strategies, even in the absence of specialized expertise or significant resources, based on recent academic papers and assessment reports.
 
-<!--
-- **Objective**: To develop an AI-based framework that enables local governments to conduct scientifically sound climate risk assessments and design adaptation strategies, even in the absence of specialized expertise or significant resources
-- **Method**: Knowledge extraction from academic literature → instruction data generation → LoRA-based fine-tuning  
-- **Outputs**: Instruction-tuning dataset and LoRA adapter (for PEFT)
--->
 ---
 
 ## Contents
 
-<!--
-| Item | Description |
-|------|-------------|
-| **Dataset** | Instruction–response pairs in JSONL format (English and Japanese) |
-| **LoRA Adapter** | LoRA adapter for Llama-3.3-Swallow-70B-Instruct-v0.4 |
-| **License** | Research use only (non-commercial) |
-| **Format** | Compatible with Hugging Face |
--->
 | Item | Filename | Description |
 |------|----------|-------------|
 | **Dataset** | v2.zip | Question-Answer pairs in JSONL format (English and Japanese) |
@@ -56,11 +31,6 @@ The data are organized by **language** (English or Japanese) and **answer format
 - `jp_default`: Japanese, open-ended textual answers  
 - `jp_multichoice`: Japanese, multiple-choice questions  
 
-<!--
-Each subset is split into **training**, **validation**, and **test** sets.  
-The number of samples in each split is shown below.
--->
-
 Each subset is divided into training, validation, and test sets in an 8:1:1 ratio. 
 The number of samples in each split is shown below. 
 In total, the dataset contains approximately 190,000 samples, ensuring sufficient coverage across both languages and answer types. 
@@ -78,12 +48,6 @@ This design allows models to learn variations in linguistic structures and respo
 
 ## Sources of Instruction-Tuning Data
 
-<!--
-The dataset was constructed based on three categories of publicly available research documents.
--->
-<!--
-The dataset was constructed from publicly available research outputs and assessment reports relevant to climate change.
--->
 The dataset was constructed from research papers and assessment reports relevant to climate change.
 
 ### 1. Ministry of Education, Culture, Sports, Science and Technology (MEXT) 
@@ -136,11 +100,6 @@ The dataset was constructed from research papers and assessment reports relevant
 This dataset and LoRA adapter are released **for research and educational purposes** only.  
 Recommended use cases include:
 
-<!--
-- Summarization and explanation of scientific texts on climate change  
-- Knowledge extraction and question answering in climate policy contexts  
-- Development of AI assistants for science communication and public understanding
--->
 - Summarization and explanation of scientific and assessment reports on climate change  
 - Knowledge extraction and question answering in climate science and policy domains  
 - Development of AI assistants for science communication and knowledge dissemination
@@ -149,12 +108,6 @@ Recommended use cases include:
 
 ## Notes
 
-<!--
-- The source texts are derived from publicly available research articles of the above institutions.  
-  Copyright remains with the original authors and institutions.  
-- This repository is provided **for transparency in academic research**; **commercial use is strictly prohibited**.  
-- Users should verify and evaluate model outputs before citing or publishing results based on them.
--->
 - The dataset contains texts derived from research papers and assessment reports published by the above institutions.  
   Copyright remains with the original authors and organizations.  
 - This repository is provided **to promote transparency and reproducibility in academic research**;  
@@ -162,6 +115,19 @@ Recommended use cases include:
 - Users should verify and evaluate model outputs before citation or publication.
 
 ---
+
+## License Information
+
+Please note that the dataset and the LoRA adapter provided in this repository are distributed under different licenses. By downloading or using these resources, you agree to abide by their respective terms.
+
+# Dataset:
+The climate change QA dataset is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0).
+[View CC BY-NC-SA 4.0 License details](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)
+
+# LoRA Adapter:
+The LoRA adapter was fine-tuned on the Llama 3.3 Swallow 70B Instruct base model. Therefore, the use of these model weights is subject to the Llama 3.3 Community License Agreement, as well as the Gemma Terms of Use.
+[View Llama 3.3 Community License](https://www.llama.com/llama3_3/license/)
+[View Gemma Terms of Use](https://ai.google.dev/gemma/terms)
 
 <!--
 ## Citation
@@ -184,6 +150,3 @@ If you use this dataset or adapter in your research, please cite as follows:
 - [tokyotech-llm/Llama-3.3-Swallow-70B-Instruct-v0.4](https://huggingface.co/tokyotech-llm/Llama-3.3-Swallow-70B-Instruct-v0.4)
 
 ---
-<!--
-© 2025 JAMSTEC Licensed for research and educational use only.
--->
