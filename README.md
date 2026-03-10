@@ -141,6 +141,31 @@ If you use this dataset or adapter in your research, please cite as follows:
 -->
 ---
 
+## Authors
+
+D. Matsuoka<sup>1</sup>, S. Kawahara<sup>1</sup>S, K. Murakami<sup>1</sup>, R. Matsumoto<sup>1</sup>, R. Ito<sup>1</sup>, S. Sugimoto<sup>1</sup>, D. Sugiyama<sup>1</sup>, M. Hara<sup>2</sup>, M. Hayashida<sup>3</sup>, K. Nguyen<sup>3</sup>, A. Peng<sup>3</sup>, T. Abe<sup>3</sup>, I. Sugiyama<sup>3</sup>  
+
+  <sup>1</sup> Japan Agency for Marine-Earth Science and Technology (JAMSTEC)  
+  <sup>2</sup> Kochi University  
+  <sup>3</sup> Ridge-i Inc.  
+
+  *(Note: If you have questions regarding this dataset or adapter, please contact kawahara@jamstec.go.jp)*
+
+---
+
+## Acknowledgments
+
+We are grateful to Drs. Takero Yoshida, Masuo Nakano, Takashi Hosono, Yoichi Ishikawa, Noriko Ishizaki, Yuya Takane, Yasutaka Wakazuki, Makoto Tamura, Takashi Hamada, Masatoshi Kuribayashi, Shinnosuke Furuya for their advice on the model development and application. This work was supported by NEDO GENIAC (Grant No. 24036962); Environment Research and Technology Development Fund of the ERCA (Grant No. JPMEERF25S12433); DIAS (Grant No. JPMXD0721453504) and SENTAN (Grant No. JPMXD0722680734) of MEXT; and JSPS KAKENHI (Grant No. JP22H01316). This work was conducted using the Earth Simulator under the support of JAMSTEC and computational resources provided by Amazon Web Services (AWS) under the support of Classmethod, Inc.
+
+---
+
+## Copyright
+
+Copyright (c) 2026 Japan Agency for Marine-Earth Science and Technology (JAMSTEC). All rights reserved.
+(Except for the source texts derived from MEXT, NIES, and IPCC reports, where copyrights remain with their respective original authors and organizations.)
+
+---
+
 ## Related Links
 
 - [SENTAN Program](https://www.jamstec.go.jp/sentan/eng/)
