@@ -120,13 +120,16 @@ Recommended use cases include:
 
 Please note that the dataset and the LoRA adapter provided in this repository are distributed under different licenses. By downloading or using these resources, you agree to abide by their respective terms.
 
-# Dataset:
+### Dataset:
 The climate change QA dataset is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0).
+
 [View CC BY-NC-SA 4.0 License details](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)
 
-# LoRA Adapter:
+### LoRA Adapter:
 The LoRA adapter was fine-tuned on the Llama 3.3 Swallow 70B Instruct base model. Therefore, the use of these model weights is subject to the Llama 3.3 Community License Agreement, as well as the Gemma Terms of Use.
+
 [View Llama 3.3 Community License](https://www.llama.com/llama3_3/license/)
+
 [View Gemma Terms of Use](https://ai.google.dev/gemma/terms)
 
 <!--
